@@ -1,0 +1,7 @@
+target
+../logs
+### IntelliJ IDEA ###
+platform-micro/.idea
+*.iws
+*.iml
+*.ipr
