@@ -1,5 +1,6 @@
 package com.atqgh.common.utils;
 
+import com.atqgh.common.exception.MicroException;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.lang3.ObjectUtils;
@@ -31,7 +32,7 @@ public class PropertiesCopyUtils {
                 try {
                     dto = clazz.newInstance();
                 } catch (Exception e) {
-                    throw new RuntimeException("对象创建失败", e);
+                    throw new MicroException("对象创建失败", e);
                 }
                 BeanUtils.copyProperties(item, dto);
                 dos.add(dto);
@@ -54,7 +55,7 @@ public class PropertiesCopyUtils {
         try {
             dto = clazz.newInstance();
         } catch (Exception e) {
-            throw new RuntimeException("对象创建失败", e);
+            throw new MicroException("对象创建失败", e);
         }
         BeanUtils.copyProperties(origin, dto);
         return dto;
