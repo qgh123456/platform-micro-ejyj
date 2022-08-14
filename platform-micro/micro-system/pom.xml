@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>platform-micro-system</artifactId>
+    <artifactId>micro-system</artifactId>
     <packaging>pom</packaging>
 
     <modules>
