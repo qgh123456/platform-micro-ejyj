@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 /**
  * 用户信息表.
  * @author Mubai
- * @date 2022-08-14 10:45:24
+ * @since 2022-08-14 10:45:24
  */
 @ApiModel
 @Data
