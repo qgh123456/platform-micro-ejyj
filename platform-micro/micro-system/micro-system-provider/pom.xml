@@ -45,6 +45,18 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--  服务的注册中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+    <!--   2021版本的springcloud不默认加载bootstrap文件-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

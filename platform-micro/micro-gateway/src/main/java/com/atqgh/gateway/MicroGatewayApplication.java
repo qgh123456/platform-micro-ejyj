@@ -2,6 +2,7 @@ package com.atqgh.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 微服务网关.
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Mubai
  * @since 2022/8/14 3:30 下午
  **/
+@EnableDiscoveryClient
 @SpringBootApplication
 public class MicroGatewayApplication {
 

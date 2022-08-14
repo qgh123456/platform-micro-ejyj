@@ -3,6 +3,7 @@ package com.atqgh.system.provider;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 系统资源服务启动类.
@@ -10,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Mubai
  * @date 2022/6/30 11:00 上午
  **/
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan("com.atqgh.system.provider.mapper")
 public class MicroSystemApplication {
