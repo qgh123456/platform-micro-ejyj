@@ -19,8 +19,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>platform-micro-common</module>
-        <module>platform-micro-system</module>
+        <module>micro-common</module>
+        <module>micro-system</module>
+        <module>micro-gateway</module>
     </modules>
 
     <properties>

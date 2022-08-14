@@ -9,13 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>platform-micro-system</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>micro-system-api</module>
-        <module>micro-system-provider</module>
-    </modules>
+    <artifactId>platform-micro-gateway</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
