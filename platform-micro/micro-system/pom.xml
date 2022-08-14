@@ -9,11 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>micro-common</artifactId>
-
+    <artifactId>platform-micro-system</artifactId>
     <packaging>pom</packaging>
+
     <modules>
-        <module>common-core</module>
+        <module>micro-system-api</module>
+        <module>micro-system-provider</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
