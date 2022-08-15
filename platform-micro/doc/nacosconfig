@@ -1,3 +1,8 @@
 docker pull nacos/nacos-server:1.4.2;
 
 docker run --env MODE=standalone --name nacos3 -e JVM_XMS=128m -e JVM_XMX=256m  -d -p 8848:8848 nacos/nacos-server:1.4.2;
+
+
+#sentinel-dashboard
+docker pull docker.io/bladex/sentinel-dashboard
+docker run --name sentinel -e JVM_XMS=128m -e JVM_XMX=256m -d -p 8012:8012 sentinel-dashboard
