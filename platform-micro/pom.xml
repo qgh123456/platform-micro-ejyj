@@ -7,7 +7,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.3</version>
+<!--        <version>2.6.3</version>-->
+        <version>2.3.2.RELEASE</version>
     </parent>
 
     <groupId>com.atqgh</groupId>
@@ -27,21 +28,17 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <!--        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>-->
-        <spring-cloud.version>2021.0.1</spring-cloud.version>
+
         <java.version>1.8</java.version>
         <java.version>1.8</java.version>
         <nimbus-jose-jwt.version>9.1.1</nimbus-jose-jwt.version>
         <fastjson.version>1.2.62</fastjson.version>
         <httpcore.version>4.4.12</httpcore.version>
-        <current_project.version>1.0-SNAPSHOT</current_project.version>
-        <!--        <alibaba.version>2.1.0.RELEASE</alibaba.version>-->
-        <alibaba.version>2021.0.1.0</alibaba.version>
+
         <validation-api.version>2.0.1.Final</validation-api.version>
         <mybatis-plus.version>3.5.0</mybatis-plus.version>
         <mysql.version>8.0.17</mysql.version>
         <swagger.version>2.9.2</swagger.version>
-        <!--        <springboot.version>2.1.8.RELEASE</springboot.version>-->
         <springboot.version>2.6.3</springboot.version>
         <commons-lang3.version>3.11</commons-lang3.version>
         <easy-captcha.version>1.6.2</easy-captcha.version>
@@ -51,6 +48,12 @@
         <poi-ooxml.version>4.1.2</poi-ooxml.version>
         <pagehelper.version>5.1.10</pagehelper.version>
         <current.project.version>1.0-SNAPSHOT</current.project.version>
+
+<!--        <alibaba.version>2021.0.1.0</alibaba.version>-->
+<!--        <spring-cloud.version>2021.0.1</spring-cloud.version>-->
+
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <alibaba.version>2.2.6.RELEASE</alibaba.version>
 
     </properties>
 
@@ -76,11 +79,11 @@
                 <version>${current.project.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>
-                <version>${alibaba.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.alibaba.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>-->
+<!--                <version>${alibaba.version}</version>-->
+<!--            </dependency>-->
 
             <dependency>
                 <groupId>com.alibaba</groupId>
